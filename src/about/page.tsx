@@ -5,9 +5,14 @@ export default function About() {
     <div className="text-red-400">
       ABOUT ME!
 
-      <Image src="next.svg" alt="Next Logo" width="50" height="50">
-
-      </Image>
+      <Image
+          className="dark:invert"
+          src="/next.svg"
+          alt="Next.js logo"
+          width={180}
+          height={38}
+          priority
+        />
     </div>
   );
 }
